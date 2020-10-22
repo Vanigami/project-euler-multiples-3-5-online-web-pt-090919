@@ -11,7 +11,7 @@ def collect_multiples
 end
 
 def sum_multiples
-  multiples(limit).um
+  multiples.sum
 end
 
 
