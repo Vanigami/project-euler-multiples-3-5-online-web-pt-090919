@@ -4,6 +4,9 @@ class Multiples
 def init(limit)
   @limit = limit
   @multiples = collect_multiples
+  raise ArgumentError.new(
+  
+  ) if !limit
 end
 
 def collect_multiples
