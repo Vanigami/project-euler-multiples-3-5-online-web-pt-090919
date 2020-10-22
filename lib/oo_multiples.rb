@@ -4,10 +4,11 @@ class Multiples
 def init(limit)
   @limit = limit
   @multiples = collect_multiples
-  raise ArgumentError.new(
-
-  ) if !limit
 end
+
+raise ArgumentError.new(
+
+) if !limit
 
 def collect_multiples
   (1...limit).to_a.select{|num| num % 3 == 0 || num % 5 == 0}
