@@ -5,5 +5,5 @@
 # Enter your procedural solution here!
 def collect_multiples(limit)
     (1...limit).to_a.select{|num| num % 3 == 0}
-    
+
 end
