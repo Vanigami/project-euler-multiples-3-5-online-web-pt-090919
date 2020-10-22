@@ -3,6 +3,6 @@
 # Find the __sum__ of all the multiples of 3 or 5 below 1000.
 
 def collect_multiples(limit)
-    (1...limit).to_a.select{|num| num % 3 == 0}
+    (1...limit).to_a.select{|num| num % 3 == 0 || num % 5 == 0}
 
 end
