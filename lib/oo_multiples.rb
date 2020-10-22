@@ -1,6 +1,12 @@
 # Enter your object-oriented solution here!
 class Multiples
-attr_accessor :limit, :multiples
+
+def init(limit)
+  @limit = limit
+  @multples = []
+end
+
+
 
 
 end
