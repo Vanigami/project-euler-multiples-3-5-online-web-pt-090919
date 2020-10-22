@@ -5,7 +5,7 @@ def init(limit)
   @limit = limit
   @multiples = collect_multiples
   raise ArgumentError.new(
-  
+
   ) if !limit
 end
 
